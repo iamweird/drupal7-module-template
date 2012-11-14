@@ -1,0 +1,72 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the Mymodule module.
+ */
+
+/**
+ * Implements hook_schema().
+ * Uncomment this if your module needs its own tables.
+ * Don't forget to uncomment mymodule_install()
+ * and mymodule_uninstall() as well.
+ */
+/*
+function mymodule_schema() {
+	$schema = array();
+
+	$schema['mymodule_table1'] = array(
+		'description' => 'Add table description here',
+		'fields' => array(
+			'id' => array(
+				// @see Data types <http://drupal.org/node/159605>
+
+				'type' => 'serial', 
+				'not null' => TRUE,
+				'description' => 'Add field description here',
+			),
+
+			// TODO: Add some more fields here.
+		),
+
+		// TODO: Add primary key, foreign keys etc.
+	);
+
+	// TODO: Add some more tables here.
+
+	return $schema;
+}
+*/
+
+/**
+ * Implements hook_install().
+ * Uncomment this if your module needs its own tables.
+ */
+/*
+function mymodule_install() {
+  drupal_install_schema('mymodule');
+}
+*/
+
+/**
+ * Implements hook_uninstall().
+ * Uncomment this if your module needs its own tables.
+ */
+/*
+function mymodule_uninstall() {
+  drupal_uninstall_schema('mymodule');
+}
+*/
+
+/**
+ * Implements hook_update().
+ * Uncomment this if your module database schema changes between releases.
+ * At any future schema changes, create new implementation of hook_update()
+ * and increment number in the end of function name, e.g. mymodule_update_2()
+ * for schema v2 (initial schema v0 is stored in mymodule_schema()).
+ */
+/*
+function mymodule_update_1() {
+	// TODO: Add some code here.
+	// @see Database API <http://drupal.org/developing/api/database>
+}
+*/

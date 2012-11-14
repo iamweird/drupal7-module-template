@@ -1,0 +1,8 @@
+; $Id$
+
+name = mymodule
+description = Module template
+package = My package
+core = 7.x
+
+files[] = mymodule.module

@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ * Uncomment this if your module has any routes.
+ */
+/*
+function mymodule_menu() {
+	$items = array();
+
+	// TODO: add module routes here
+
+	return $items;
+}
+*/
+
